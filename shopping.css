@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shopping{
+    text-align: center;
+    background-color: aqua;
+    font-size: 50px;
+    font-weight: 900;
+}
+.section{
+    text-align: center;
+    padding-top: 80px;
+    background-color: grey;
+}
+.box{
+
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 7px;
+    /* display: flex; */
+}
+.box h1{
+    background-color: blueviolet;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box p {
+    font-size: 40px;
+
+    color: brown;
+    
+}
+.parabox{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: scroll;
+    /* padding: 10px; */
+    /* width: 100%; */
+    height: 280px;
+    
+}
+.divide{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divide p{
+    margin: 0 10px;
+}
+#proceeds{
+
+    font-size: 50px;
+    background-color: brown;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 50px;
+}
